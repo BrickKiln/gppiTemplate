@@ -1,1 +1,1 @@
-# gppiTemplate
+# GPPi theme for Reveal.js

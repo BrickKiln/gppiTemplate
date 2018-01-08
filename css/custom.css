@@ -1,0 +1,22 @@
+#left {
+	left: -8.33%;
+	text-align: left;
+	float: left;
+	width: 48%;
+	height: 100%;
+	z-index: -10;
+}
+#right {
+	left: 31.25%;
+	float: right;
+	width: 50%;
+	height: 100%;
+	text-align: left;
+	z-index: -10;
+	background: #d20f41;
+  	background-color: #d20f41;
+  	color: #fff;
+}
+.gppiHighlight {
+	color: #d20f41;
+}

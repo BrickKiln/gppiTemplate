@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>GPPi Template</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<script src="https://d3js.org/d3.v4.js"></script>
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-state="title" data-transition="fade"> <!-- Title page here -->
+					<br>
+					<h1>Introduction to Reveal.js Presentation</h1>
+					<h5>An incredibly impractical replacement for PowerPoint</h5>
+					<br>
+					<h6>MARK BUI</h6>
+				</section>
+
+				<section>
+					<h2>Hallo!</h2>
+					<p>I made a GPPi theme for this really popular presentation package. It's not the easiest to use, nor the most convenient, but it's snappy and powerful. Let me show you what this is capable of.</p>
+				</section>
+
+				<section>
+					<h2>It just works!</h2>
+					<p>The slides can be hosted online and viewed on browser. That means it works on all devices and platforms. No need to fumble with thumbdrives and emails, or worry about missing fonts anymore!</p>
+					<p><span class="fragment fade-up">Okay I lied. It might not work really well on older versions of Internet Explorer. But you should not use older versions of Internet Explorer anyway.</span></p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Vertical Slides</h2>
+						<p>You can nest slides inside each other. Nested slides move vertically.</p>
+						<p>Arrows in the bottom right corner let you know which direction you should move for the next slide.</p>
+					</section>
+					<section>
+						<h2>This is a nested slide</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
+					<section>
+						<h2>Move however you want</h2>
+						<p>You don't need to go back up to move on horizontally.</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Respecting the status quo</h3>
+						<p>Mirroring the PPT template</p>
+					</section>
+					<section>
+						<h3>Agenda</h3>
+						<ol>
+						<li>First item</li>
+						<li><span class="fragment highlight-red" data-fragment-index="1">Second item</span>
+							<span class="fragment fade-up" data-fragment-index="1"> Highlight items!</span></li>
+						<li>Third item</li>
+						<li>Fourth item</li>
+						</ol>
+					</section>
+					<section>
+						<h3>Agenda item title</h3>
+						<p style="text-align: left">I haven't figured out the corner tab for agenda item yet so agenda item as headline is necessary <br>
+						Rule of thumb
+						<ul>
+							<li>As few words as possible
+								<ul>
+									<li>as few lines as possible
+										<ul>
+											<li>as few indents as possible</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>Use our color to highlight 
+								<span class="fragment highlight-red" data-fragment-index="0">12</span> 
+								numbers of <span class="fragment highlight-red" data-fragment-index="0">key words</span></li>
+							<li>And I haven't figured out how to highlight bullets yet</li>
+						</ul>
+						</p>
+					</section>
+					<section>
+						<h3>Use our boldy-mac-bold style to highlight the number one super key finding or a really important point you want to come across</h3>
+						<p>
+							<ul>
+								<li>You can further explain it</li>
+								<li>in bullets</li>
+								<li>without shouting so much</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<div id="left">
+							<h3>Findings</h3>
+							<ul>
+							<li>Option to present recommendations in a compelling way</li>
+							<li>Add the main findings</li>
+							<li>In individual bullet points</li>
+							<li>Then add the recommendations</li>
+							<li>On the right hand side</li>
+						</ul>
+						</div>
+						<div id="right">
+							<h3 style="margin-left: 10px">Recommendations</h3>
+							<ul>
+							<li>Add recommendation in this box with explanation</li>
+							<li>Why is it important</li>
+							<li>Or explain</li>
+							<li>Subrecommendations</li>
+						</ul>
+						</div>
+					</section>
+					<section data-state="red">
+						<h3>So little space, so many things to say?</h3>
+						<p>Have an entire slide for recommendations!</p>
+					</section>
+					<section data-state="green">
+						<p>Oh and you can change the background to any of the 4 colors in the palette approved by the brand guidelines.</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Beyond the PPT template</h2>
+					<p>Here comes the fun stuff!</p>
+				</section>
+
+				<section>
+					<h2>Pretty tables</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Value</th>
+								<th>Quantity</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Apples</td>
+								<td>$1</td>
+								<td>7</td>
+							</tr>
+							<tr>
+								<td>Lemonade</td>
+								<td>$2</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td>Bread</td>
+								<td>$3</td>
+								<td>2</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<section>
+						<h2>Interactive data visualization</h2>
+						<p>Developing interactive data viz is complicated, but if you already have it, you can integrate it into your slide deck seamlessly</p>
+						<div id="wraper" style="text-align:center">
+							<div id="graph"></div>
+							<button class="button" id="trigger">Click here to generate random data</button>
+
+						</div>
+						<script src="randomChart.js"></script>
+				</section>
+
+				<section>
+					<h2>Embed videos</h2>
+						<iframe data-src="https://www.youtube.com/embed/sGF6bOi1NfA?autoplay=1" class="stretch"></iframe>
+				</section>
+
+				<section>
+					<h2>Birdeye view</h2>
+					<p>Lost track of where you are? Press ESC to enter the slide overview.</p>
+				</section>
+
+				<section>
+					<h2>Take a break</h2>
+					<p>Don't want your audience to be distracted by what's on the screen while you're talking? Press B to pause the presentation.</p>
+				</section>
+
+				<section>
+					<h2>Download as PDF</h2>
+					<p>Include <code>/?print-pdf</code> at the end of the URL and the deck will be generated as a PDF. I haven't managed to solve the background issue yet, however.</p>
+				</section>
+
+				<section style="text-align: left">
+					<h1>THE END</h1>
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
